@@ -100,18 +100,19 @@ body {
 }
 .cartao .descricao {
   background: rgba(255, 255, 255, 0.8);
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 20px 20px 10px 10px;
 }
 .cartao .descricao .titulo {
   background-color: #333;
   font-size: 15px;
   color: white;
   padding: 12px;
+  border-radius: 10px 10px 0 0;
 }
 .cartao .descricao .texto {
   font-size: 14px;
   padding: 12px;
-  text-align: 115px;
+  text-align: justify;
+  max-height: 115px;
   overflow-y: auto;
 }
